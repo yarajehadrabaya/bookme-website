@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK ME</title>
+
+    <link rel="stylesheet" href="page1.css">
+</head>
+<body>
+    
+    <div class="container">
+        <img src="C:\Users\Yara jehad\Desktop\ss\img" class="logo">
+        <div class="content">
+            <h1>The theatrical show <span>Masked Faces</span> ,SooN</h1>
+            <div class="lanch-time">
+                <div>
+                    <p id="days">00</p>
+                    <span>Days</span>
+                </div>
+                <div>
+                    <p id="hours">00</p>
+                    <span>Hours</span>
+                </div>
+                <div>
+                    <p id="minutes">00</p>
+                    <span>Minutes</span>
+                </div>
+                <div>
+                    <p id="seconds">00</p>
+                    <span>Seconds</span>
+                </div>
+            </div>
+            <button type="button" style="background-color: @grey;" onclick="MOREDETILE()">More detile! </button>
+            <button type="button" style="background-color: @grey;" onclick="BOOKME()">BOOK Me!</button>
+        </div>
+        <img src="rocket.png" alt="" class="rocket">
+    </div>
+    
+    <script>
+
+        var countDownDate = new Date("march 30, 2023 00:00:00").getTime();
+        var x = setInterval(function(){
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+
+        },1000);
+
+    </script>
+
+<script>
+function BOOKME(){window. location="form validation.html";
+setTimeout('myFunction()',3000);}
+function MOREDETILE(){window. location="moredetail.html";
+setTimeout('myFunction()',3000);}
+
+</script>
+
+</body>
+</html>

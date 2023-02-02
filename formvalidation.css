@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-image: url(back2.PNG);
+    background-position: center;
+    background-size: cover;
+  }
+  .container {
+    width: 90vw;
+    max-width: 600px;
+    padding: 2em 1.5em;
+    background-color: #665757ca;
+    margin: 1em auto;
+    border-radius: 0.5em;
+  }
+  
+  h4{
+    font-size: 40px;
+    font-weight: 600;
+  }
+  h4 span {
+
+   color: #dc8503;
+  }
+  .input-section {
+    margin: 0.5em 0;
+  }
+  label,
+  .error-message {
+    display: block;
+    font-size: 1em;
+  }
+  label {
+    margin-bottom: 0.5em;
+    font-weight: 500;
+  }
+  .error-message {
+    margin-top: 0.2em;
+  }
+  input,
+  button {
+    display: block;
+    outline: none;
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 0.3em;
+  }
+  input {
+    padding: 1em 0.5em;
+    border: 1.5px solid #d0d0d0;
+  }
+  button {
+    font-size: 1em;
+    background-color: #83160a;
+    border: none;
+    color: #ffffff;
+    padding: 0.8em 0;
+    margin-top: 2em;
+  }
+  .required-color {
+    color: #ff4747;
+  }
+  .error {
+    border-color: #ff4747;
+  }
+  .valid {
+    border-color: #37a137;
+  }
+  .hide {
+    display: none;
+  }
+  @media only screen and (max-width: 450px) {
+    .container {
+      font-size: 14px;
+    }
+  }
+  
+  .pearls
+{
+    width: 20px;
+    position: absolute;
+    right: 70%;
+    bottom: 0;
+    animation: pearls 10s linear infinite;
+}
+
+@keyframes pearls
+{
+    100%{
+        bottom: 0;
+        opacity: 0;
+    }
+
+    0%{
+        bottom: 105%;
+        opacity: 5;
+    }
+}
+.pearls2
+{
+    width: 20px;
+    position: absolute;
+    left: 70%;
+    bottom: 0;
+    animation: pearls2 6s linear infinite;
+}
+
+@keyframes pearls2
+{
+    100%{
+        bottom: 0;
+        opacity: 0;
+    }
+
+    0%{
+        bottom: 105%;
+        opacity: 5;
+    }
+}
+
+.mask
+{
+  width:300px;
+  position: absolute;
+  right: 1%;
+  bottom: 0;
+  animation: pearls 7s linear infinite;
+}
+@keyframes mask
+{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+
+    100%{
+        bottom: 105%;
+        opacity: 5;
+    }
+  }
+
+.ballet
+{
+  width:130px;
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+  animation: pearls 6s linear infinite ;
+}
+@keyframes ballet
+{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+
+    100%{
+        bottom: 105%;
+        opacity: 5;
+    }
+  }
+ 
+ 
