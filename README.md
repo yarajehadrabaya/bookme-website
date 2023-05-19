@@ -11,11 +11,11 @@ ________________________________________________________________________________
 Front end 
 _______________________________________________________________________________________________________________________
 ### Features:
-#### *countdown. timer
+#### *⏳countdown timer.
 
-#### *Presentation of theatrical actors.
+#### *🤹Presentation of theatrical actors.
 
-#### *User registration :
+#### *🧑‍🔧User registration :
 ###### 1-📧Enter the user's email.
 ###### 2-✏️Enter the first and second name.
 ###### 3-	📲Enter the phone number.
