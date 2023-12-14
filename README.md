@@ -1,13 +1,31 @@
-# Project Name: Tic-Tac-Toe Console Application
+# Project Name: bookme
 
 ### What is the goal of this website?
- Develop a simple console-based Tic-Tac-Toe game in Dart. The game should allow two players to take turns making moves on a 3x3 grid until one player wins or the game ends in a draw. The application should provide an interactive and user-friendly experience.
+ A site for selling and booking tickets for theatrical performances of masked faces	🎭.
+### 🌍 Live Demo :
+[Bookme](https://bookmeticket.netlify.app/) - "Responsive for laptop and computer only"
 ### Authors:
 * 	👩💻Yara Jehad Rabaya
 _______________________________________________________________________________________________________________________
-# Very important Note :
-I have answered the bonus question. Please pay attention to the code highlighted with comment marks
+### Project Type ?
+Front end 
 _______________________________________________________________________________________________________________________
+### Features:
+#### *⏳countdown timer.
 
+#### *🤹Presentation of theatrical actors.
+####                  
+#### *🧑‍🔧User registration :
+###### 1-📧Enter the user's email.
+###### 2-✏️Enter the first and second name.
+###### 3-	📲Enter the phone number.
+###### 4-🔐Enter the password and re-confirm it.
+
+
+______________________________________________________________________________________________________________________
 ### Languages used?
-###### DART
+###### HTML
+###### CSS
+###### JS
+###### NOTE: "Responsive for laptop and computer only"
+_______________________________________________________________________________________________________________________
